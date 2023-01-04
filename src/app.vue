@@ -1,5 +1,17 @@
 <template>
-  <div>
-    <h2 class="bg-red-300">text</h2>
-  </div>
+<v-btn
+        v-bind="attrs"
+        v-on="on"
+      >
+        Click me
+      </v-btn>
 </template>
+
+<script setup>
+import 'vuetify/dist/vuetify.min.css'
+
+</script>
+
+<style lang="scss" scoped>
+
+</style>
