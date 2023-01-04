@@ -61,7 +61,7 @@
         </template>
         Content
       </v-timeline-item>
-      <v-btn variant="tonal" color="secondary" class="primary" v-on="on" :loading="loading">
+      <v-btn color="secondary" class="primary" v-on="on" :loading="loading">
         <Icon name="material-symbols:360"> </Icon>  Menu
       </v-btn>
     </v-timeline>
