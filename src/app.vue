@@ -1,14 +1,15 @@
 <template>
+<p class="bg-red-400">text</p>
 <v-btn
-        v-bind="attrs"
         v-on="on"
       >
-        Click me
+        Click medd
       </v-btn>
 </template>
 
 <script setup>
-import 'vuetify/dist/vuetify.min.css'
+
+
 
 </script>
 
