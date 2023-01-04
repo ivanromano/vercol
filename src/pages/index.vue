@@ -1,9 +1,8 @@
 <template>
-  <NuxtPage> </NuxtPage>
+<Vcarousel/>
 </template>
 
 <script setup>
-
 
 </script>
 
