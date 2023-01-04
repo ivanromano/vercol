@@ -1,5 +1,5 @@
 <template>
-<div class="px-40 text-red-100">
+<div class="@lg:px-40 text-red-100">
   <v-carousel cycle>
     <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src" cover > 
     
