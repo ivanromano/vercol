@@ -1,14 +1,9 @@
 <!-- font-weight-bold -->
 <template>
 <v-sheet elevation="0"> 
-
   <v-card color="success">
 
-    <v-tabs
-      v-model="tab"
-      bg-color="primary"
-      class="flex-center"
-    >
+    <v-tabs v-model="tab" bg-color="primary" class="flex-center">
       <h1 class="mx-5">e</h1>
       <v-tab value="one">Item One</v-tab>
       <v-tab value="two">Item Two</v-tab>
@@ -18,7 +13,7 @@
     <v-card-text>
       <v-window v-model="tab">
         <v-window-item value="one">
-          ww
+          <Vtime/>
         </v-window-item>
 
         <v-window-item value="two">
@@ -26,7 +21,7 @@
         </v-window-item>
 
         <v-window-item value="three">
-          <Vtime/>
+          ww
         </v-window-item>
       </v-window>
     </v-card-text>

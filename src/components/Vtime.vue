@@ -61,8 +61,8 @@
         </template>
         Content
       </v-timeline-item>
-      <v-btn variant="plain" color="secondary" class="primary" v-on="on" :loading="loading">
-        <Icon name="material-symbols:360"> </Icon>  Click medd
+      <v-btn variant="tonal" color="secondary" class="primary" v-on="on" :loading="loading">
+        <Icon name="material-symbols:360"> </Icon>  Menu
       </v-btn>
     </v-timeline>
 
