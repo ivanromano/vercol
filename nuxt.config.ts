@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     'nuxt-windicss', 'nuxt-icon',
   ],
   srcDir: 'src',
-  css: ['vuetify/lib/styles/main.sass'],
+  css: ['vuetify/lib/styles/main.sass', '@mdi/font/css/materialdesignicons.min.css'],
   build: {
     transpile: ['vuetify'],
   },
