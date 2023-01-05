@@ -1,6 +1,6 @@
 <template>
-<div class="@lg:px-40 text-red-100">
-  <v-carousel cycle>
+<div class=" text-red-100 my-[20px] w-[50.%] h-[200%]">
+  <v-carousel cycle height="300" interval='100000000'  >
     <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src" cover > 
     
     </v-carousel-item>

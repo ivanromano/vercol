@@ -15,7 +15,12 @@ const myCustomLightTheme = {
     info: '#2196F3',
     success: '#4CAF50',
     warning: '#FB8C00',
-    victinero: '#888'
+    vicYellow: '#FFCC67',
+    'vicYellow-darken-1': '#fff',
+    vicOrange: '#FF9557',
+    vicPink: '#F95794',
+    vicBlue: '#A3D858',
+    vicRed: '#E52E71'
   }
 }
 

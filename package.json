@@ -14,6 +14,8 @@
   "dependencies": {
     "@ant-design/icons-vue": "^6.1.0",
     "@mdi/font": "^7.1.96",
+    "@nuxtjs/supabase": "^0.3.0",
+    "@pinia/nuxt": "^0.4.6",
     "ant-design-vue": "^3.2.15",
     "autoprefixer": "^10.4.13",
     "axios": "^1.2.2",

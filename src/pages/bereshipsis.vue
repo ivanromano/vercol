@@ -1,10 +1,11 @@
-<!-- font-weight-bold -->
 <template>
-  dd
-  <Vcarousel> </Vcarousel>
+  <div>
+bereshipsi
+  </div>
 </template>
 
 <script setup>
+
 </script>
 
 <style lang="scss" scoped>
