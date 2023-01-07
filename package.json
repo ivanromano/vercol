@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@ant-design/icons-vue": "^6.1.0",
+    "@kyvg/vue3-notification": "^2.7.0",
     "@mdi/font": "^7.1.96",
     "@nuxtjs/supabase": "^0.3.0",
     "@pinia/nuxt": "^0.4.6",

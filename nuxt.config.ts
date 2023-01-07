@@ -1,11 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import Components from 'unplugin-vue-components/vite';
-import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers';
+
 
 
 export default defineNuxtConfig({
   modules: [
-    'nuxt-windicss', 'nuxt-icon',
+    'nuxt-windicss', 'nuxt-icon', '@pinia/nuxt'
   ],
   srcDir: 'src',
   css: ['vuetify/lib/styles/main.sass', '@mdi/font/css/materialdesignicons.min.css'],

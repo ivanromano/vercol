@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@ant-design/icons-vue': ^6.1.0
+  '@kyvg/vue3-notification': ^2.7.0
   '@mdi/font': ^7.1.96
   '@nuxtjs/supabase': ^0.3.0
   '@pinia/nuxt': ^0.4.6
@@ -19,6 +20,7 @@ specifiers:
 
 dependencies:
   '@ant-design/icons-vue': 6.1.0
+  '@kyvg/vue3-notification': 2.7.0
   '@mdi/font': 7.1.96
   '@nuxtjs/supabase': 0.3.0
   '@pinia/nuxt': 0.4.6
@@ -426,6 +428,12 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
+
+  /@kyvg/vue3-notification/2.7.0:
+    resolution: {integrity: sha512-Eti6jRGips9fpf2WdRjlOOJGyjCZ35qt84CeTeFr5piAwXaMpvgzea4dqqTK5KCfqK3qz/zwwxAd/8AToLYL8A==}
+    peerDependencies:
+      vue: ^3.0.0
+    dev: false
 
   /@mapbox/node-pre-gyp/1.0.10:
     resolution: {integrity: sha512-4ySo4CjzStuprMwk35H5pPbkymjv1SF3jGLj6rAHp/xT/RF7TL7bd9CTm1xDY49K2qF7jmR/g7k+SkLETP6opA==}

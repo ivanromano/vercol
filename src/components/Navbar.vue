@@ -1,5 +1,5 @@
 <template>
-<v-card color="vicYellow" class="flex flex-wrap-reverse">
+<v-card color="vicYellow" class="flex flex-wrap-reverse fixed">
   <!-- fixed-tabs -->
   <v-tabs  v-model="tab" bg-color="vicYellow" class="" active-class="true" center-active="false">
     <div class=" <lg:hidden px-5 xl:px-12 py-1 flex flex-wrap-reverse">

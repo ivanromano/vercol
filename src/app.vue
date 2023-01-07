@@ -1,4 +1,6 @@
 <template>
+  <!-- animation-type="velocity" -->
+  <notifications width="50%" position="bottom center"  />
   <Navbar/>
   <NuxtPage> </NuxtPage>
 </template>
@@ -18,12 +20,12 @@ useHead({
             href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css",
         }
     ],
-    // script: [
-    //     {
-    //         src: "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js",
-    //         // body: true
-    //     }
-    // ]
+    script: [
+        {
+            src: "https://unpkg.com/vee-validate",
+            // body: true
+        }
+    ]
 })
 
 </script>
